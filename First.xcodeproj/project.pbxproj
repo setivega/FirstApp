@@ -12,7 +12,7 @@
 		DA736CE31F35FF3400706201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA736CE11F35FF3400706201 /* Main.storyboard */; };
 		DA736CE51F35FF3400706201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA736CE41F35FF3400706201 /* Assets.xcassets */; };
 		DA736CE81F35FF3400706201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA736CE61F35FF3400706201 /* LaunchScreen.storyboard */; };
-		DA736CF01F36002100706201 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA736CEF1F36002100706201 /* GoogleService-Info.plist */; };
+		DA736CF21F36045500706201 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA736CF11F36045500706201 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		DA736CE41F35FF3400706201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA736CE71F35FF3400706201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA736CE91F35FF3400706201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA736CEF1F36002100706201 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA736CF11F36045500706201 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				DA736CE41F35FF3400706201 /* Assets.xcassets */,
 				DA736CE61F35FF3400706201 /* LaunchScreen.storyboard */,
 				DA736CE91F35FF3400706201 /* Info.plist */,
-				DA736CEF1F36002100706201 /* GoogleService-Info.plist */,
+				DA736CF11F36045500706201 /* GoogleService-Info.plist */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -128,7 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA736CE81F35FF3400706201 /* LaunchScreen.storyboard in Resources */,
-				DA736CF01F36002100706201 /* GoogleService-Info.plist in Resources */,
+				DA736CF21F36045500706201 /* GoogleService-Info.plist in Resources */,
 				DA736CE51F35FF3400706201 /* Assets.xcassets in Resources */,
 				DA736CE31F35FF3400706201 /* Main.storyboard in Resources */,
 			);
@@ -308,6 +308,7 @@
 				DA736CEE1F35FF3400706201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
