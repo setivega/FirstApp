@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A61195A6A200FDB8DB17907 /* Pods_First.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322D4A42912DD81946EE96AB /* Pods_First.framework */; };
 		DA736CDE1F35FF3400706201 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA736CDD1F35FF3400706201 /* AppDelegate.swift */; };
-		DA736CE01F35FF3400706201 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA736CDF1F35FF3400706201 /* ViewController.swift */; };
+		DA736CE01F35FF3400706201 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA736CDF1F35FF3400706201 /* NameViewController.swift */; };
 		DA736CE31F35FF3400706201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA736CE11F35FF3400706201 /* Main.storyboard */; };
-		DA736CE51F35FF3400706201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA736CE41F35FF3400706201 /* Assets.xcassets */; };
 		DA736CE81F35FF3400706201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA736CE61F35FF3400706201 /* LaunchScreen.storyboard */; };
 		DA736CF21F36045500706201 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA736CF11F36045500706201 /* GoogleService-Info.plist */; };
+		DA736CFE1F3A832F00706201 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA736CFD1F3A832F00706201 /* EmailViewController.swift */; };
+		DA736D001F3A8C3700706201 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA736CFF1F3A8C3700706201 /* PhoneViewController.swift */; };
+		DA736D041F3AB5F300706201 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA736D031F3AB5F300706201 /* LogInViewController.swift */; };
+		DA736D0A1F3FE61D00706201 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA736D091F3FE61D00706201 /* InterestsViewController.swift */; };
+		DA736D0C1F3FEC1A00706201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA736D0B1F3FEC1A00706201 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		322D4A42912DD81946EE96AB /* Pods_First.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_First.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D669C1CD8A8D59ECAA3C6B4 /* Pods-First.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.release.xcconfig"; path = "Pods/Target Support Files/Pods-First/Pods-First.release.xcconfig"; sourceTree = "<group>"; };
 		DA736CDA1F35FF3400706201 /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA736CDD1F35FF3400706201 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA736CDF1F35FF3400706201 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA736CDF1F35FF3400706201 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 		DA736CE21F35FF3400706201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DA736CE41F35FF3400706201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA736CE71F35FF3400706201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA736CE91F35FF3400706201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA736CF11F36045500706201 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA736CFD1F3A832F00706201 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		DA736CFF1F3A8C3700706201 /* PhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		DA736D031F3AB5F300706201 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		DA736D091F3FE61D00706201 /* InterestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
+		DA736D0B1F3FEC1A00706201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		DF3AE03C93577FB0BA91F3C2 /* Pods-First.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First.debug.xcconfig"; path = "Pods/Target Support Files/Pods-First/Pods-First.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A61195A6A200FDB8DB17907 /* Pods_First.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9892BFE3AD2AA548FE41406 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				322D4A42912DD81946EE96AB /* Pods_First.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD60B7B9E69A6550565106BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF3AE03C93577FB0BA91F3C2 /* Pods-First.debug.xcconfig */,
+				7D669C1CD8A8D59ECAA3C6B4 /* Pods-First.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA736CD11F35FF3400706201 = {
 			isa = PBXGroup;
 			children = (
 				DA736CDC1F35FF3400706201 /* First */,
 				DA736CDB1F35FF3400706201 /* Products */,
+				BD60B7B9E69A6550565106BC /* Pods */,
+				A9892BFE3AD2AA548FE41406 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,10 +89,14 @@
 			isa = PBXGroup;
 			children = (
 				DA736CDD1F35FF3400706201 /* AppDelegate.swift */,
-				DA736CDF1F35FF3400706201 /* ViewController.swift */,
+				DA736CDF1F35FF3400706201 /* NameViewController.swift */,
+				DA736CFD1F3A832F00706201 /* EmailViewController.swift */,
+				DA736CFF1F3A8C3700706201 /* PhoneViewController.swift */,
+				DA736D031F3AB5F300706201 /* LogInViewController.swift */,
+				DA736D091F3FE61D00706201 /* InterestsViewController.swift */,
 				DA736CE11F35FF3400706201 /* Main.storyboard */,
-				DA736CE41F35FF3400706201 /* Assets.xcassets */,
 				DA736CE61F35FF3400706201 /* LaunchScreen.storyboard */,
+				DA736D0B1F3FEC1A00706201 /* Assets.xcassets */,
 				DA736CE91F35FF3400706201 /* Info.plist */,
 				DA736CF11F36045500706201 /* GoogleService-Info.plist */,
 			);
@@ -74,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA736CEC1F35FF3400706201 /* Build configuration list for PBXNativeTarget "First" */;
 			buildPhases = (
+				CC4C7596A6213E77D524255E /* [CP] Check Pods Manifest.lock */,
 				DA736CD61F35FF3400706201 /* Sources */,
 				DA736CD71F35FF3400706201 /* Frameworks */,
 				DA736CD81F35FF3400706201 /* Resources */,
+				848F7C9C09162BE702430B88 /* [CP] Embed Pods Frameworks */,
+				A166705655D6AF31F5BA7B18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,19 +168,79 @@
 			files = (
 				DA736CE81F35FF3400706201 /* LaunchScreen.storyboard in Resources */,
 				DA736CF21F36045500706201 /* GoogleService-Info.plist in Resources */,
-				DA736CE51F35FF3400706201 /* Assets.xcassets in Resources */,
+				DA736D0C1F3FEC1A00706201 /* Assets.xcassets in Resources */,
 				DA736CE31F35FF3400706201 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		848F7C9C09162BE702430B88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-First/Pods-First-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-First/Pods-First-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A166705655D6AF31F5BA7B18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-First/Pods-First-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4C7596A6213E77D524255E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-First-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA736CD61F35FF3400706201 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA736CE01F35FF3400706201 /* ViewController.swift in Sources */,
+				DA736D0A1F3FE61D00706201 /* InterestsViewController.swift in Sources */,
+				DA736CE01F35FF3400706201 /* NameViewController.swift in Sources */,
+				DA736D041F3AB5F300706201 /* LogInViewController.swift in Sources */,
+				DA736D001F3A8C3700706201 /* PhoneViewController.swift in Sources */,
+				DA736CFE1F3A832F00706201 /* EmailViewController.swift in Sources */,
 				DA736CDE1F35FF3400706201 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +364,7 @@
 		};
 		DA736CED1F35FF3400706201 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF3AE03C93577FB0BA91F3C2 /* Pods-First.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9KEXSWCD6U;
@@ -278,6 +378,7 @@
 		};
 		DA736CEE1F35FF3400706201 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D669C1CD8A8D59ECAA3C6B4 /* Pods-First.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9KEXSWCD6U;
